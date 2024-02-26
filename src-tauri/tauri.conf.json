@@ -1,0 +1,39 @@
+{
+  "package": {
+    "productName": "Kimi",
+    "version": "1.0.0"
+  },
+  "tauri": {
+    "security": {
+      "csp": null,
+      "dangerousRemoteDomainIpcAccess": [
+        {
+          "domain": "kimi.moonshot.cn",
+          "windows": ["pake"],
+          "enableTauriAPI": true
+        }
+      ]
+    },
+    "updater": {
+      "active": false
+    },
+    "systemTray": {
+      "iconPath": "png/icon_512.png",
+      "iconAsTemplate": true
+    },
+    "allowlist": {
+      "all": true,
+      "fs": {
+        "all": true,
+        "scope": ["$DOWNLOAD/*"]
+      }
+    }
+  },
+  "build": {
+    "withGlobalTauri": true,
+    "devPath": "../dist",
+    "distDir": "../dist",
+    "beforeBuildCommand": "",
+    "beforeDevCommand": ""
+  }
+}

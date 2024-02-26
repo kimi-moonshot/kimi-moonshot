@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Categories=Office
+Exec=cn-moonshot-kimi
+Icon=cn-moonshot-kimi
+Name=cn-moonshot-kimi
+Name[zh_CN]=Kimi
+StartupNotify=true
+Terminal=false
+Type=Application

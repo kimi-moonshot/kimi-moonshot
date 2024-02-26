@@ -1,0 +1,20 @@
+{
+  "tauri": {
+    "bundle": {
+      "icon": ["png/kimi_512.png"],
+      "identifier": "cn.moonshot.kimi",
+      "active": true,
+      "copyright": "",
+      "category": "DeveloperTool",
+      "deb": {
+        "depends": ["curl", "wget"],
+        "files": {"/usr/share/applications/cn-moonshot-kimi.desktop": "assets/com-pake-weread.desktop"}
+      },
+      "externalBin": [],
+      "longDescription": "",
+      "resources": [],
+      "shortDescription": "",
+      "targets": ["deb", "appimage"]
+    }
+  }
+}
