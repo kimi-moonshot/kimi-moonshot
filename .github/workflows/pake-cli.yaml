@@ -48,6 +48,9 @@ on:
           - 'appimage'
           - 'all'
 
+permissions:
+  contents: read
+
 jobs:
   build:
     name: ${{ inputs.platform }}
